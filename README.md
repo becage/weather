@@ -11,7 +11,8 @@ $ composer require becage/weather -vvv
 
 ## Usage
 
-TODO
+$w = new Weather($key);
+$response = $w->getWeather('深圳');
 
 ## Contributing
 
